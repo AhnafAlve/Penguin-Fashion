@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #FFF9F4;
+}
+h2{
+    font-weight: bold;
+    color: #363958;
+}
+h3{
+    font-weight: bold;
+    color: #FA804C;
+    display: inline-block;
+}
+h5{
+    font-weight: bold;
+    color: #363958;
+}
+button{
+    background-color: #3D4FF3;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.penguin-nav img {
+    width: 250px;
+}
+.penguin-navbar li{
+    margin-right: 50px;
+}
+.penguin-navlink{
+    color: #242f51!important; 
+    font-weight: 500;
+}
+.banner h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #242f51;
+}
+.banner span{
+    color:#FA804C;
+}
+.banner p{
+    padding: 10px 0; 
+}
+.penguin-card,.penguin-cardfooter{
+    border: none;  
+    background-color: white;
+}
+.penguin-card img{
+    background-color: #F1F1F1;
+    height: 350px;
+}
+.about{
+    margin: 150px 0;
+}
+.about .col-md-5 img{
+    width: 120px;
+    padding: 20px;
+    
+}
+.about-txt{
+    padding: 15px;
+}
+.about-item{
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.contact {
+    height: 400px;
+    margin: 20px 0;
+    background-color: #FFF9F4;
+}
+
+/********* Media Queries **********/
+
+@media only screen and (max-width:992px){
+    .about .row {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about .row .col-md-5{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:668px){
+    .banner .row {
+        flex-direction: column-reverse;
+    }
+    .about .row {
+        flex-direction: column-reverse;
+    }
+}
